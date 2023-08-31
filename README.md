@@ -1,4 +1,4 @@
-# Login Practica
+# App Login
 
 Un ejemplo de aplicación que muestra una interfaz de usuario básica para una lista de elementos. La aplicación incluye:
 
