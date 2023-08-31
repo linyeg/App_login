@@ -1,8 +1,8 @@
 import 'package:login/domain/entities/elements_entity.dart';
 import 'package:login/infrastructure/mapper/element_mapper.dart';
+import 'package:login/infrastructure/models/list_element_model.dart';
 
-import '../../domain/entities/listElement_entity.dart';
-import '../models/listelement_model.dart';
+import '../../domain/entities/list_element_entity.dart';
 
 class ListElementMapper {
   ListElementEntity toEntityListElement(ListElementModel list) {

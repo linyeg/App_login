@@ -1,4 +1,4 @@
-import 'package:login/domain/entities/listElement_entity.dart';
+import 'package:login/domain/entities/list_element_entity.dart';
 
 abstract class ListElementsDataSource {
   Future<ListElementEntity> getListElement();

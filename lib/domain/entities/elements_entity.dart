@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:login/infrastructure/models/listElements_model.dart';
 
 class ElementEntity {
   final int id;

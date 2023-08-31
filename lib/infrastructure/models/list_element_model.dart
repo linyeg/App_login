@@ -1,6 +1,3 @@
-import 'dart:convert';
-
-import '../../domain/entities/elements_entity.dart';
 import 'Element_model.dart';
 
 class ListElementModel {

@@ -1,8 +1,10 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:login/controllers/listelements_controller.dart';
 
 class MainLogInScreen extends StatefulWidget {
-  const MainLogInScreen({super.key});
+  MainLogInScreen({super.key});
 
   @override
   State<MainLogInScreen> createState() => _MainLogInScreenState();
@@ -10,6 +12,7 @@ class MainLogInScreen extends StatefulWidget {
 
 class _MainLogInScreenState extends State<MainLogInScreen> {
   bool isSelected = false;
+  final jejejaja = Get.find<ListElementsController>();
 
   void _login() {
     Navigator.pushNamed(context, 'Elementos');
@@ -21,6 +24,7 @@ class _MainLogInScreenState extends State<MainLogInScreen> {
 
   @override
   Widget build(BuildContext context) {
+    jejejaja.loadListElement();
     return Scaffold(
       appBar: AppBar(
         elevation: 5.0,
