@@ -1,9 +1,13 @@
-# Login Practica
+# App Login
 
-A new Flutter project.
+Un ejemplo de aplicación que muestra una interfaz de usuario básica para una lista de elementos. La aplicación incluye:
 
-## App Result
+- Pantalla de inicio de sesión simulada.
+- Pantalla de listado de elementos con título, imagen y nombre del autor.
+- Pantalla de vista de detalle que muestra información completa del elemento.
 
-![alt text](https://github.com/linyeg/login_practica5/blob/master/lib/Screenshot_1677476768.png)
+Este proyecto se creó con [Flutter] como ejercicio para aprender sobre diseño de interfaces, manejo de datos y navegación en una aplicación móvil.
+
+
 
 
